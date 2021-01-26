@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 #button {
   background-color: rgb(255, 255, 255);
@@ -19,4 +20,9 @@
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   cursor: pointer;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 230px;
+  font-size: large;
 }
